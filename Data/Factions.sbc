@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Factions> 
-    <Faction Tag="VOID" Founder="The Abysmal Fist">
+    <Faction Tag="EARTH" Founder="The Emerald Eye">
       <Id>
         <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
-        <SubtypeId>TheVoid</SubtypeId>
+        <SubtypeId>EarthClan</SubtypeId>
       </Id>
-      <DisplayName>The Void</DisplayName>
+      <DisplayName>Earth Clan</DisplayName>
       <IsDefault>true</IsDefault>
       <DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
       <AcceptHumans>false</AcceptHumans>
@@ -14,7 +14,7 @@
       <StartingBalance>100000000</StartingBalance>0
       <Type>None</Type> <!--None, Miner, Trader, Builder-->
       <DiscoveredByDefault>false</DiscoveredByDefault>
-      <FactionIcon>Textures\FactionLogo\VoidIcon.png</FactionIcon> <!--Game or Mod Path For Texture File-->
+      <FactionIcon>Textures\FAKE.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
     </Faction>	
   </Factions>
 </Definitions>
