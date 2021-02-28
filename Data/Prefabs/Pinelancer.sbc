@@ -739,11 +739,12 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
-              <CustomName>Medium Cargo Container 3</CustomName>
+              <CustomName>Medium Cargo Container ( Loot )</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <ContainerType>MES-StoreInv-ToolsSmall-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RemoteControl">
               <SubtypeName>SmallBlockRemoteControl</SubtypeName>
@@ -1167,11 +1168,12 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
-              <CustomName>Medium Cargo Container 4</CustomName>
+              <CustomName>Medium Cargo Container 2 ( Loot )</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <ContainerType>MES-StoreInv-IngotsBasicSmall-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_BatteryBlock">
               <SubtypeName>SmallBlockBatteryBlock</SubtypeName>
