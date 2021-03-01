@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Convoy Spawns -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawn-Earth-Single-Convoy-Vehicle</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+
+      [IgnoreSafetyChecks:true]
+      [InheritNpcAltitude:true]
+      [MaxSpawns:5]
+      [MinDistance:200]
+      [MaxDistance:500]
+      [MinAltitude:1]
+      [MaxAltitude:2]  
+      [SpawnGroups:Earth-Pinelancer-SG]
+      [SpawnGroups:Earth-Rockslinger-SG]      
+      [SpawnGroups:Earth-Sporesting-SG]
+      [SpawnMinCooldown:300]
+      [SpawnMaxCooldown:360]
+      [StartsReady:true]      
+      [UseRelativeSpawnPosition:false] 
+      </Description>    
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawn-Earth-Group-Convoy-Vehicle</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+
+      [IgnoreSafetyChecks:true]
+      [InheritNpcAltitude:true]
+      [MaxSpawns:1]
+      [MinDistance:250]
+      [MaxDistance:1000]
+      [MinAltitude:1]
+      [MaxAltitude:2]  
+      [SpawnGroups:Earth-Ground-Patrol-A-SG]
+      [SpawnGroups:Earth-Ground-Caravan-A-SG]
+      [StartsReady:true]      
+      [UseRelativeSpawnPosition:false] 
+      </Description>    
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

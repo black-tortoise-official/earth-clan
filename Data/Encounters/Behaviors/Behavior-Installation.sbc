@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Convoy Sites -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>RAI-Behavior-Earth-Convoysite-Single</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      [Triggers:Trigger-Earth-Create-Single-Convoy]
+      [UseAmmoReplenish:true]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>RAI-Behavior-Earth-Convoysite-Group</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      [Triggers:Trigger-Earth-Create-Group-Convoy]
+      [UseAmmoReplenish:true]
+      </Description>
+    </EntityComponent>
+
+	</EntityComponents>
+</Definitions>

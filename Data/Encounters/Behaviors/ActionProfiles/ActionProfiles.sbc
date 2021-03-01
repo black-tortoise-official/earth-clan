@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Convoy Spawn Actions -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-Earth-Convoy-Single</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:Spawn-Earth-Single-Convoy-Vehicle]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-Earth-Convoy-Group</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:Spawn-Earth-Group-Convoy-Vehicle]
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

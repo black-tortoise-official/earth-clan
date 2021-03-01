@@ -2,6 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SpawnGroups>
     <!-- SMALL GRIDS -->
+
     <!-- Single Tank Easy Convoy -->
     <SpawnGroup>
       <Id>
@@ -173,7 +174,7 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:85]
-      [ThreatScoreMaximum:300]      
+      [ThreatScoreMaximum:1200]      
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -220,7 +221,7 @@
     <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
-        <SubtypeId>Earth-Ground-Patrol-A-SG</SubtypeId>
+        <SubtypeId>Earth-Ground-Caravan-A-SG</SubtypeId>
       </Id>
       <Description>
       [Modular Encounters SpawnGroup]
@@ -243,7 +244,7 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:120]
-      [ThreatScoreMaximum:300]      
+      [ThreatScoreMaximum:3000]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -320,6 +321,110 @@
     </SpawnGroup>
 
     <!-- LARGE GRIDS -->
-    <!-- TBD -->
+    
+    <!-- Convoy Site - Single Convoy Vehicle -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+        <SubtypeId>Earth-ConvoySite-Single-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [PlanetaryInstallation:true]
+      [PlanetaryInstallationType:Small]
+      [RivalAiSpawn:true]
+      [RivalAiSpaceSpawn:false]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:EARTH]
+      [IgnoreGlobalBlockReplacer:true]
+      [MaxSpawnFromPlanetSurface:2000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Large]
+      [RandomGridNamePattern:(Convoy-Relay) GoodAdjective JobNoun GreekLetter]
+      [ReplaceAntennaNameWithRandomizedName:Antenna]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [SkipAirDensityCheck:true]
+      [ThreatScoreMinimum:25]
+      [ThreatScoreMaximum:250]
+      [UseBlockReplacerProfile:true]
+      [UseRandomNameGenerator:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate> <!--Do not edit-->
+      <Frequency>4.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Earth-ConvoySite-Alpha">
+          <BeaconText>Convoy Relay Site Small</BeaconText>
+          <Behaviour>RAI-Behavior-Earth-Convoysite-Single</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <!-- Convoy Site - Group Convoy Vehicles -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+        <SubtypeId>Earth-ConvoySite-Group-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [PlanetaryInstallation:true]
+      [PlanetaryInstallationType:Small]
+      [RivalAiSpawn:true]
+      [RivalAiSpaceSpawn:false]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [ClearAuthorship:true]
+      [FactionOwner:EARTH]
+      [IgnoreGlobalBlockReplacer:true]
+      [MaxSpawnFromPlanetSurface:2000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Large]
+      [RandomGridNamePattern:(Convoy-Relay) NeutralAdjective JobNoun GreekLetter]
+      [ReplaceAntennaNameWithRandomizedName:Antenna]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [SkipAirDensityCheck:true]
+      [ThreatScoreMinimum:85]
+      [ThreatScoreMaximum:3000]
+      [UseBlockReplacerProfile:true]
+      [UseRandomNameGenerator:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate> <!--Do not edit-->
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Earth-ConvoySite-Alpha">
+          <BeaconText>Convoy Relay Site Large</BeaconText>
+          <Behaviour>RAI-Behavior-Earth-Convoysite-Group</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
   </SpawnGroups>
 </Definitions>

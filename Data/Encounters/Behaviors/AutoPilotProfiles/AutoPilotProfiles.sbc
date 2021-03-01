@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<EntityComponents>
-  		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-			<Id>
-				<TypeId>Inventory</TypeId>
-				<SubtypeId>Autopilot-Earth-Convoy</SubtypeId>
-			</Id>
-			<Description>
-			[RivalAI Autopilot]
+  <EntityComponents>
+      <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Autopilot-Earth-Convoy</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Autopilot]
       
       [FlyLevelWithGravity:true]
 
@@ -17,7 +17,7 @@
       [SlowDownOnWaypointApproach:true]
       [ExtraSlowDownDistance:100]
 
-      [AltitudeTolerance:1000]
+      [AltitudeTolerance:5]
       [MinimumPlanetAltitude:1]
       [IdealPlanetAltitude:1]
 
@@ -25,7 +25,7 @@
 
       [WaypointTolerance:50]
       [WaypointWaitTimeTrigger:60]
-			</Description>
-		</EntityComponent>
-	</EntityComponents>
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
 </Definitions>
