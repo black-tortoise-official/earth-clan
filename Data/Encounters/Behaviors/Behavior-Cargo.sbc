@@ -4,11 +4,12 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>RAI-Behavior-Earth-Horsefly</SubtypeId>
+        <SubtypeId>RAI-Behavior-Earth-Cargo</SubtypeId>
       </Id>
       <Description>
       [RivalAI Behavior]
-      [BehaviorName:Horsefly]
+      [BehaviorName:CargoShip]
+      [AutopilotData:Autopilot-Earth-Convoy]
       [UseAmmoReplenish:true]
       </Description>
     </EntityComponent>
