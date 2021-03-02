@@ -187,7 +187,7 @@
           <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
           <Position>
             <X>50.0</X>
-            <Y>-50.0</Y>
+            <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
           <Speed>15</Speed>					
@@ -197,8 +197,8 @@
           <BeaconText>Rockslinger Beta</BeaconText>
           <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
           <Position>
-            <X>50.0</X>
-            <Y>50.0</Y>
+            <X>-50.0</X>
+            <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
           <Speed>15</Speed>					
@@ -257,8 +257,8 @@
           <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
           <Position>
             <X>50.0</X>
-            <Y>-50.0</Y>
-            <Z>0.0</Z>
+            <Y>0.0</Y>
+            <Z>50.0</Z>
           </Position>
           <Speed>15</Speed>					
         </Prefab>
@@ -267,9 +267,9 @@
           <BeaconText>Rockslinger Beta</BeaconText>
           <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
           <Position>
-            <X>50.0</X>
-            <Y>50.0</Y>
-            <Z>0.0</Z>
+            <X>-50.0</X>
+            <Y>0.0</Y>
+            <Z>50.0</Z>
           </Position>
           <Speed>15</Speed>					
         </Prefab>
@@ -278,9 +278,9 @@
           <BeaconText>Rockslinger Gamma</BeaconText>
           <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
           <Position>
-            <X>-50.0</X>
-            <Y>-50.0</Y>
-            <Z>0.0</Z>
+            <X>50.0</X>
+            <Y>0.0</Y>
+            <Z>-50.0</Z>
           </Position>
           <Speed>15</Speed>					
         </Prefab>
@@ -290,8 +290,8 @@
           <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
           <Position>
             <X>-50.0</X>
-            <Y>50.0</Y>
-            <Z>0.0</Z>
+            <Y>0.0</Y>
+            <Z>-50.0</Z>
           </Position>
           <Speed>15</Speed>					
         </Prefab>
@@ -300,9 +300,9 @@
           <BeaconText>Sporestinger Precious Cargo</BeaconText>
           <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
           <Position>
-            <X>15.0</X>
+            <X>0.0</X>
             <Y>0.0</Y>
-            <Z>0.0</Z>
+            <Z>15.0</Z>
           </Position>
           <Speed>15</Speed>
         </Prefab>        
@@ -311,9 +311,9 @@
           <BeaconText>Pinelancer Anti Aircraft</BeaconText>
           <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
           <Position>
-            <X>-15.0</X>
+            <X>0.0</X>
             <Y>0.0</Y>
-            <Z>0.0</Z>
+            <Z>-15.0</Z>
           </Position>
           <Speed>15</Speed>					
         </Prefab>        
