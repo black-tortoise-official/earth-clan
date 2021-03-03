@@ -1851,11 +1851,12 @@ Damage</Value>
                   </ComponentData>
                 </Components>
               </ComponentContainer>
-              <CustomName>Cargo Md AmmoCont InvCont 3</CustomName>
+              <CustomName>Cargo Md AmmoCont InvCont 3 ( Loot )</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
+              <ContainerType>MES-StoreInv-ConsumablesSmall-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CargoContainer">
               <SubtypeName>SmallBlockMediumContainer</SubtypeName>
