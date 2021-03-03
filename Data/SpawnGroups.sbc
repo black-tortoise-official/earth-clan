@@ -366,7 +366,7 @@
           <Behaviour>RAI-Behavior-Earth-Convoysite-Single</Behaviour>
           <Position>
             <X>0.0</X>
-            <Y>-3.125</Y>
+            <Y>-4.0</Y>
             <Z>0.0</Z>
           </Position>
           <Speed>0</Speed>					
@@ -418,7 +418,7 @@
           <Behaviour>RAI-Behavior-Earth-Convoysite-Group</Behaviour>
           <Position>
             <X>0.0</X>
-            <Y>-3.125</Y>
+            <Y>-4.0</Y>
             <Z>0.0</Z>
           </Position>
           <Speed>0</Speed>					
