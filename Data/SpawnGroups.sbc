@@ -20,7 +20,10 @@
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
+      [CustomPathStartAltitude:0]
+      [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
@@ -46,7 +49,7 @@
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
-          <Speed>20</Speed>					
+          <Speed>15</Speed>					
         </Prefab>
       </Prefabs>
     </SpawnGroup>
@@ -68,7 +71,10 @@
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
+      [CustomPathStartAltitude:0]
+      [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
@@ -116,7 +122,10 @@
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
+      [CustomPathStartAltitude:0]
+      [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
@@ -164,7 +173,10 @@
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
+      [CustomPathStartAltitude:0]
+      [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
@@ -180,7 +192,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>3.0</Frequency>
+      <Frequency>2.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-Rockslinger">
           <BeaconText>Rockslinger Alpha</BeaconText>
@@ -234,7 +246,10 @@
       [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
       [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
+      [CustomPathStartAltitude:0]
+      [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
@@ -250,7 +265,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-Rockslinger">
           <BeaconText>Rockslinger Alpha</BeaconText>
@@ -359,7 +374,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>4.0</Frequency>
+      <Frequency>2.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-ConvoySite-Alpha">
           <BeaconText>Convoy Relay Site Small</BeaconText>
@@ -411,7 +426,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>3.0</Frequency>
+      <Frequency>2.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-ConvoySite-Alpha">
           <BeaconText>Convoy Relay Site Large</BeaconText>

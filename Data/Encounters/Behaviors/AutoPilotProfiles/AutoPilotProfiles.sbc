@@ -12,14 +12,16 @@
       [FlyLevelWithGravity:true]
 
       [IdealMinSpeed:5]
-      [IdealMaxSpeed:25]
+      [IdealMaxSpeed:15]
       [MaxSpeedTolerance:5]
       [SlowDownOnWaypointApproach:true]
-      [ExtraSlowDownDistance:100]
+      [ExtraSlowDownDistance:80]      
 
       [AltitudeTolerance:5]
-      [MinimumPlanetAltitude:1]
+      [HoverPathStepDistance:100]
       [IdealPlanetAltitude:1]
+      [MinimumPlanetAltitude:1]      
+      [UseSurfaceHoverThrustMode:true]
 
       [UseProjectileLeadPrediction:true]
 
