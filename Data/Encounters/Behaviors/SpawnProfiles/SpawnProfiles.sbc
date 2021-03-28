@@ -55,5 +55,29 @@
       </Description>    
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawn-Earth-Single-Large-Vehicle</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+
+      [IgnoreSafetyChecks:true]
+      [InheritNpcAltitude:true]
+      [MaxSpawns:2]
+      [MinDistance:100]
+      [MaxDistance:400]
+      [MinAltitude:15]
+      [MaxAltitude:18]
+      [SpawnGroups:Earth-StoneCrusher-SG]
+      [SpawnMinCooldown:600]
+      [SpawnMaxCooldown:900]
+      [StartsReady:true]      
+      [UseRelativeSpawnPosition:false] 
+      </Description>    
+    </EntityComponent>
+
   </EntityComponents>
 </Definitions>

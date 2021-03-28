@@ -6,7 +6,7 @@
     <!-- Single Tank Easy Convoy -->
     <SpawnGroup>
       <Id>
-        <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+        <TypeId>SpawnGroupDefinition</TypeId>
         <SubtypeId>Earth-Rockslinger-SG</SubtypeId>
       </Id>
       <Description>
@@ -22,12 +22,13 @@
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
-      [CustomPathStartAltitude:0]
+      [CustomPathStartAltitude:1]
       [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePrefix:(FEC-E) ]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
@@ -38,7 +39,7 @@
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
-      <IsPirate>true</IsPirate> <!--Do not edit-->
+      <IsPirate>true</IsPirate>
       <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-Rockslinger">
@@ -73,12 +74,13 @@
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
-      [CustomPathStartAltitude:0]
+      [CustomPathStartAltitude:1]
       [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePrefix:(FEC-E) ]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
@@ -124,12 +126,13 @@
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
-      [CustomPathStartAltitude:0]
+      [CustomPathStartAltitude:1]
       [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePrefix:(FEC-E) ]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
@@ -175,12 +178,13 @@
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
-      [CustomPathStartAltitude:0]
+      [CustomPathStartAltitude:1]
       [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePrefix:(FEC-E) ]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
@@ -248,12 +252,13 @@
       [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
       [CargoShipTerrainPath:true]
       [ClearAuthorship:true]
-      [CustomPathStartAltitude:0]
+      [CustomPathStartAltitude:1]
       [CustomPathEndAltitude:0]
       [FactionOwner:EARTH]
       [IgnoreGlobalBlockReplacer:true]
       [MaxSpawnFromPlanetSurface:2000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePrefix:(FEC-E) ]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
@@ -336,6 +341,59 @@
     </SpawnGroup>
 
     <!-- LARGE GRIDS -->
+
+    <!-- Single Lg Tank -->
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Earth-StoneCrusher-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [LunarCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [CargoShipTerrainPath:true]
+      [ClearAuthorship:true]
+      [CustomPathStartAltitude:15]
+      [CustomPathEndAltitude:0]
+      [FactionOwner:EARTH]
+      [IgnoreGlobalBlockReplacer:true]
+      [MaxSpawnFromPlanetSurface:2000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePrefix:(FEC-E) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [SkipAirDensityCheck:true]
+      [ThreatScoreMinimum:80]
+      [ThreatScoreMaximum:800]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Earth-StoneCrusher">
+          <BeaconText>Stone Crusher</BeaconText>
+          <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>15</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
     
     <!-- Convoy Site - Single Convoy Vehicle -->
     <SpawnGroup>
@@ -360,7 +418,7 @@
       [MaxSpawnFromPlanetSurface:2000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Large]
-      [RandomGridNamePattern:(Convoy-Relay) GoodAdjective JobNoun GreekLetter]
+      [RandomGridNamePattern:(FEC-E) Relay GoodAdjective JobNoun GreekLetter]
       [ReplaceAntennaNameWithRandomizedName:Antenna]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
@@ -412,7 +470,7 @@
       [MaxSpawnFromPlanetSurface:2000]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
       [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Large]
-      [RandomGridNamePattern:(Convoy-Relay) NeutralAdjective JobNoun GreekLetter]
+      [RandomGridNamePattern:(FEC-E) Relay NeutralAdjective JobNoun GreekLetter]
       [ReplaceAntennaNameWithRandomizedName:Antenna]
       [ReplaceArmorBlocksWithModules:true]
       [ReplenishSystems:true]
@@ -426,7 +484,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>2.0</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-ConvoySite-Alpha">
           <BeaconText>Convoy Relay Site Large</BeaconText>
@@ -440,6 +498,58 @@
         </Prefab>
       </Prefabs>
     </SpawnGroup>
+
+  <!-- Convoy Site - Large Vehicle -->
+  <SpawnGroup>
+    <Id>
+      <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+      <SubtypeId>Earth-ConvoySite-Lg-Single-SG</SubtypeId>
+    </Id>
+    <Description>
+    [Modular Encounters SpawnGroup]
+      
+    [PlanetaryInstallation:true]
+    [PlanetaryInstallationType:Small]
+    [RivalAiSpawn:true]
+    [RivalAiSpaceSpawn:false]
+
+    [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+    [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+    [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+    [ClearAuthorship:true]
+    [FactionOwner:EARTH]
+    [IgnoreGlobalBlockReplacer:true]
+    [MaxSpawnFromPlanetSurface:2000]
+    [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+    [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Large]
+    [RandomGridNamePattern:(FEC-E) Relay FunnyAdjective BaddieNoun GreekLetter]
+    [ReplaceAntennaNameWithRandomizedName:Antenna]
+    [ReplaceArmorBlocksWithModules:true]
+    [ReplenishSystems:true]
+    [RivalAiReplaceRemoteControl:true]
+    [SkipAirDensityCheck:true]
+    [ThreatScoreMinimum:100]
+    [ThreatScoreMaximum:3000]
+    [UseBlockReplacerProfile:true]
+    [UseRandomNameGenerator:true]
+    [UseRivalAi:true]
+    [UseThreatLevelCheck:true]
+    </Description>
+    <IsPirate>true</IsPirate> <!--Do not edit-->
+    <Frequency>1.0</Frequency>
+    <Prefabs>
+      <Prefab SubtypeId="Earth-ConvoySite-Alpha">
+        <BeaconText>Convoy Relay Site Large</BeaconText>
+        <Behaviour>RAI-Behavior-Earth-Convoysite-Lg-Single</Behaviour>
+        <Position>
+          <X>0.0</X>
+          <Y>-4.0</Y>
+          <Z>0.0</Z>
+        </Position>
+        <Speed>0</Speed>					
+      </Prefab>
+    </Prefabs>
+  </SpawnGroup>
 
   </SpawnGroups>
 </Definitions>

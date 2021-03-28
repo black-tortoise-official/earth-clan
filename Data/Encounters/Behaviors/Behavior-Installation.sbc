@@ -30,5 +30,18 @@
       </Description>
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>RAI-Behavior-Earth-Convoysite-Lg-Single</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      [Triggers:Trigger-Earth-Create-Lg-Single-Convoy]
+      [UseAmmoReplenish:true]
+      </Description>
+    </EntityComponent>
+
 	</EntityComponents>
 </Definitions>

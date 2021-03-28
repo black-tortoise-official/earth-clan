@@ -16,7 +16,7 @@
       [MinCooldownMs:60000]
       [MaxCooldownMs:120000]
       [StartsReady:true]
-      [TargetDistance:5000]
+      [TargetDistance:3500]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>
@@ -34,7 +34,25 @@
       [MinCooldownMs:60000]
       [MaxCooldownMs:120000]
       [StartsReady:true]
-      [TargetDistance:7000]
+      [TargetDistance:5000]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-Earth-Create-Lg-Single-Convoy</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+
+      [Actions:Action-Earth-Convoy-Lg-Single]
+      [MinCooldownMs:60000]
+      [MaxCooldownMs:120000]
+      [StartsReady:true]
+      [TargetDistance:3500]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>

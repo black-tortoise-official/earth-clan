@@ -28,5 +28,17 @@
       </Description>
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-Earth-Convoy-Lg-Single</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:Spawn-Earth-Single-Large-Vehicle]
+      </Description>
+    </EntityComponent>
+
   </EntityComponents>
 </Definitions>
