@@ -2326,7 +2326,7 @@
                     <Component xsi:type="MyObjectBuilder_Inventory">
                       <Items>
                         <MyObjectBuilder_InventoryItem>
-                          <Amount>55</Amount>
+                          <Amount>255</Amount>
                           <PhysicalContent xsi:type="MyObjectBuilder_AmmoMagazine">
                             <SubtypeName>OKI122mmAmmo</SubtypeName>
                             <ProjectilesCount>0</ProjectilesCount>
