@@ -16,7 +16,7 @@
       [MinCooldownMs:60000]
       [MaxCooldownMs:120000]
       [StartsReady:true]
-      [TargetDistance:3500]
+      [TargetDistance:2000]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>
@@ -34,7 +34,7 @@
       [MinCooldownMs:60000]
       [MaxCooldownMs:120000]
       [StartsReady:true]
-      [TargetDistance:5000]
+      [TargetDistance:3000]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>
@@ -52,7 +52,27 @@
       [MinCooldownMs:60000]
       [MaxCooldownMs:120000]
       [StartsReady:true]
-      [TargetDistance:3500]
+      [TargetDistance:3000]
+      [Type:PlayerNear]
+      [UseTrigger:true]
+      </Description>
+    </EntityComponent>
+
+    <!-- Outpost Profiles -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Trigger-Earth-Outpost-Gamma</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Trigger]
+
+      [Actions:Action-Earth-Outpost-Gamma]
+      [MinCooldownMs:60000]
+      [MaxCooldownMs:120000]
+      [StartsReady:true]
+      [TargetDistance:2000]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>

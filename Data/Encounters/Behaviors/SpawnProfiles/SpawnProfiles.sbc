@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
-    <!-- Convoy Spawns -->
+    <!-- Small Grid Spawns -->
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
@@ -18,13 +18,13 @@
       [MaxSpawns:5]
       [MinDistance:20]
       [MaxDistance:200]
-      [MinAltitude:1]
-      [MaxAltitude:2]  
+      [MinAltitude:4]
+      [MaxAltitude:9]  
       [SpawnGroups:Earth-Pinelancer-SG]
-      [SpawnGroups:Earth-Rockslinger-SG]      
+      [SpawnGroups:Earth-Rockslinger-SG]
       [SpawnGroups:Earth-Sporesting-SG]
-      [SpawnMinCooldown:300]
-      [SpawnMaxCooldown:360]
+      [SpawnMinCooldown:90]
+      [SpawnMaxCooldown:180]
       [StartsReady:true]      
       [UseRelativeSpawnPosition:false] 
       </Description>    
@@ -44,16 +44,19 @@
       [MaxSpawns:3]
       [MinDistance:100]
       [MaxDistance:600]
-      [MinAltitude:1]
-      [MaxAltitude:2]  
+      [MinAltitude:4]
+      [MaxAltitude:9]  
       [SpawnGroups:Earth-Ground-Patrol-A-SG]
       [SpawnGroups:Earth-Ground-Caravan-A-SG]
-      [SpawnMinCooldown:600]
+      [SpawnMinCooldown:300]
       [SpawnMaxCooldown:900]
       [StartsReady:true]      
       [UseRelativeSpawnPosition:false] 
       </Description>    
     </EntityComponent>
+
+
+    <!-- Large Grid Spawns -->
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
@@ -72,8 +75,42 @@
       [MinAltitude:15]
       [MaxAltitude:18]
       [SpawnGroups:Earth-StoneCrusher-SG]
-      [SpawnMinCooldown:600]
-      [SpawnMaxCooldown:900]
+      [SpawnGroups:Earth-SlagSpitter-SG]
+      [SpawnMinCooldown:300]
+      [SpawnMaxCooldown:360]
+      [StartsReady:true]      
+      [UseRelativeSpawnPosition:false] 
+      </Description>    
+    </EntityComponent>
+
+
+    <!-- Misc Spawns -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>Spawn-Earth-Anything-Gamma</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Spawn]
+      [UseSpawn:true]
+
+      [IgnoreSafetyChecks:true]
+      [InheritNpcAltitude:true]
+      [MaxSpawns:5]
+      [MinDistance:50]
+      [MaxDistance:400]
+      [MinAltitude:9]
+      [MaxAltitude:12]
+      [SpawnGroups:Earth-Pinelancer-SG]
+      [SpawnGroups:Earth-Rockslinger-SG]
+      [SpawnGroups:Earth-Sporesting-SG]
+      [SpawnGroups:Earth-Ground-Patrol-A-SG]
+      [SpawnGroups:Earth-Ground-Caravan-A-SG]
+      [SpawnGroups:Earth-StoneCrusher-SG]
+      [SpawnGroups:Earth-SlagSpitter-SG]
+      [SpawnMinCooldown:120]
+      [SpawnMaxCooldown:360]
       [StartsReady:true]      
       [UseRelativeSpawnPosition:false] 
       </Description>    

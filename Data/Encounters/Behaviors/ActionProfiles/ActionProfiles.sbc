@@ -40,5 +40,19 @@
       </Description>
     </EntityComponent>
 
+    <!-- Outpost Spawns -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Action-Earth-Outpost-Gamma</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Action]
+      [SpawnEncounter:true]
+      [Spawner:Spawn-Earth-Anything-Gamma]
+      </Description>
+    </EntityComponent>
+
   </EntityComponents>
 </Definitions>

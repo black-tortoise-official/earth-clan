@@ -34,7 +34,7 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:25]
-      [ThreatScoreMaximum:250]      
+      [ThreatScoreMaximum:1000]      
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -86,13 +86,13 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:25]
-      [ThreatScoreMaximum:250]      
+      [ThreatScoreMaximum:1000]      
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>2.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-Pinelancer">
           <BeaconText>Pinelancer</BeaconText>
@@ -137,8 +137,8 @@
       [ReplenishSystems:true]
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
-      [ThreatScoreMinimum:20]
-      [ThreatScoreMaximum:500]      
+      [ThreatScoreMinimum:10]
+      [ThreatScoreMaximum:1000]      
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -190,13 +190,13 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:85]
-      [ThreatScoreMaximum:1200]      
+      [ThreatScoreMaximum:2000]      
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>2.0</Frequency>
+      <Frequency>3.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-Rockslinger">
           <BeaconText>Rockslinger Alpha</BeaconText>
@@ -373,13 +373,13 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:80]
-      [ThreatScoreMaximum:800]      
+      [ThreatScoreMaximum:1000]      
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>3.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-StoneCrusher">
           <BeaconText>Stone Crusher</BeaconText>
@@ -394,6 +394,56 @@
       </Prefabs>
     </SpawnGroup>
 
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Earth-SlagSpitter-SG</SubtypeId>
+      </Id>
+      <Description>
+      [Modular Encounters SpawnGroup]
+        
+      [AtmosphericCargoShip:true]
+      [LunarCargoShip:true]
+      [RivalAiSpawn:true]
+      [RivalAiAtmosphericSpawn:true]
+
+      [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+      [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+      [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+      [CargoShipTerrainPath:true]
+      [ClearAuthorship:true]
+      [CustomPathStartAltitude:15]
+      [CustomPathEndAltitude:0]
+      [FactionOwner:EARTH]
+      [IgnoreGlobalBlockReplacer:true]
+      [MaxSpawnFromPlanetSurface:2000]
+      [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+      [RandomGridNamePrefix:(FEC-E) ]
+      [ReplaceArmorBlocksWithModules:true]
+      [ReplenishSystems:true]
+      [RivalAiReplaceRemoteControl:true]
+      [SkipAirDensityCheck:true]
+      [ThreatScoreMinimum:50]
+      [ThreatScoreMaximum:1000]      
+      [UseBlockReplacerProfile:true]
+      [UseRivalAi:true]
+      [UseThreatLevelCheck:true]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Earth-SlagSpitter">
+          <BeaconText>Slag Spitter</BeaconText>
+          <Behaviour>RAI-Behavior-Earth-Cargo</Behaviour>
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>15</Speed>					
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
     
     <!-- Convoy Site - Single Convoy Vehicle -->
     <SpawnGroup>
@@ -425,14 +475,14 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:25]
-      [ThreatScoreMaximum:250]
+      [ThreatScoreMaximum:1000]
       [UseBlockReplacerProfile:true]
       [UseRandomNameGenerator:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>2.0</Frequency>
+      <Frequency>4.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-ConvoySite-Alpha">
           <BeaconText>Convoy Relay Site Small</BeaconText>
@@ -484,7 +534,7 @@
       [UseThreatLevelCheck:true]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>1.0</Frequency>
+      <Frequency>2.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="Earth-ConvoySite-Alpha">
           <BeaconText>Convoy Relay Site Large</BeaconText>
@@ -528,7 +578,7 @@
     [ReplenishSystems:true]
     [RivalAiReplaceRemoteControl:true]
     [SkipAirDensityCheck:true]
-    [ThreatScoreMinimum:100]
+    [ThreatScoreMinimum:85]
     [ThreatScoreMaximum:3000]
     [UseBlockReplacerProfile:true]
     [UseRandomNameGenerator:true]
@@ -536,11 +586,64 @@
     [UseThreatLevelCheck:true]
     </Description>
     <IsPirate>true</IsPirate> <!--Do not edit-->
-    <Frequency>1.0</Frequency>
+    <Frequency>4.0</Frequency>
     <Prefabs>
       <Prefab SubtypeId="Earth-ConvoySite-Alpha">
         <BeaconText>Convoy Relay Site Large</BeaconText>
         <Behaviour>RAI-Behavior-Earth-Convoysite-Lg-Single</Behaviour>
+        <Position>
+          <X>0.0</X>
+          <Y>-4.0</Y>
+          <Z>0.0</Z>
+        </Position>
+        <Speed>0</Speed>					
+      </Prefab>
+    </Prefabs>
+  </SpawnGroup>
+
+  <!-- Outpost Easy -->
+  
+  <SpawnGroup>
+    <Id>
+      <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+      <SubtypeId>Earth-Outpost-Gamma-SG</SubtypeId>
+    </Id>
+    <Description>
+    [Modular Encounters SpawnGroup]
+      
+    [PlanetaryInstallation:true]
+    [PlanetaryInstallationType:Small]
+    [RivalAiSpawn:true]
+    [RivalAiSpaceSpawn:false]
+
+    [BlockReplacerProfileNames:MES-DisposableNpcBeacons]
+    [BlockReplacerProfileNames:MES-ProprietaryCompRichBlocks]
+    [BlockReplacerProfileNames:MES-ProprietaryValuableBlocks]
+    [ClearAuthorship:true]
+    [FactionOwner:EARTH]
+    [IgnoreGlobalBlockReplacer:true]
+    [MaxSpawnFromPlanetSurface:2000]
+    [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+    [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Drill-Large]
+    [RandomGridNamePattern:(FEC-E) Outpost BadAdjective MilitaryNoun Gamma]
+    [ReplaceAntennaNameWithRandomizedName:Antenna]
+    [ReplaceArmorBlocksWithModules:true]
+    [ReplenishSystems:true]
+    [RivalAiReplaceRemoteControl:true]
+    [SkipAirDensityCheck:true]
+    [ThreatScoreMinimum:85]
+    [ThreatScoreMaximum:3000]
+    [UseBlockReplacerProfile:true]
+    [UseRandomNameGenerator:true]
+    [UseRivalAi:true]
+    [UseThreatLevelCheck:true]
+    </Description>
+    <IsPirate>true</IsPirate> <!--Do not edit-->
+    <Frequency>4.0</Frequency>
+    <Prefabs>
+      <Prefab SubtypeId="Earth-ConvoySite-Alpha">
+        <BeaconText>Outpost</BeaconText>
+        <Behaviour>RAI-Behavior-Earth-Outpost-Gamma</Behaviour>
         <Position>
           <X>0.0</X>
           <Y>-4.0</Y>

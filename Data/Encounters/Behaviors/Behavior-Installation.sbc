@@ -43,5 +43,20 @@
       </Description>
     </EntityComponent>
 
+    <!-- Outposts -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>RAI-Behavior-Earth-Outpost-Gamma</SubtypeId>
+      </Id>
+      <Description>
+      [RivalAI Behavior]
+      [BehaviorName:Passive]
+      [Triggers:Trigger-Earth-Outpost-Gamma]
+      [UseAmmoReplenish:true]
+      </Description>
+    </EntityComponent>
+
 	</EntityComponents>
 </Definitions>
