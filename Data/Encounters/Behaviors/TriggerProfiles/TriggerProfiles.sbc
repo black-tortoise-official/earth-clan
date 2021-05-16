@@ -16,7 +16,7 @@
       [MinCooldownMs:60000]
       [MaxCooldownMs:120000]
       [StartsReady:true]
-      [TargetDistance:2000]
+      [TargetDistance:3000]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>
@@ -52,7 +52,7 @@
       [MinCooldownMs:60000]
       [MaxCooldownMs:120000]
       [StartsReady:true]
-      [TargetDistance:3000]
+      [TargetDistance:5000]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>
@@ -72,7 +72,7 @@
       [MinCooldownMs:60000]
       [MaxCooldownMs:120000]
       [StartsReady:true]
-      [TargetDistance:2000]
+      [TargetDistance:3000]
       [Type:PlayerNear]
       [UseTrigger:true]
       </Description>

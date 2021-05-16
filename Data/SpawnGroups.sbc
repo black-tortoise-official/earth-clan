@@ -34,7 +34,8 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:25]
-      [ThreatScoreMaximum:1000]      
+      [ThreatScoreMaximum:1000]
+      [TurretRange:850]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -86,7 +87,8 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:25]
-      [ThreatScoreMaximum:1000]      
+      [ThreatScoreMaximum:1000]
+      [TurretRange:1000]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -138,7 +140,7 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:10]
-      [ThreatScoreMaximum:1000]      
+      [ThreatScoreMaximum:1000]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -190,7 +192,8 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:85]
-      [ThreatScoreMaximum:2000]      
+      [ThreatScoreMaximum:2000]
+      [TurretRange:1000]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -265,6 +268,7 @@
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:120]
       [ThreatScoreMaximum:3000]
+      [TurretRange:1000]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -373,7 +377,8 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:80]
-      [ThreatScoreMaximum:1000]      
+      [ThreatScoreMaximum:1000]
+      [TurretRange:850]     
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -424,7 +429,8 @@
       [RivalAiReplaceRemoteControl:true]
       [SkipAirDensityCheck:true]
       [ThreatScoreMinimum:50]
-      [ThreatScoreMaximum:1000]      
+      [ThreatScoreMaximum:1000]
+      [TurretRange:1000]
       [UseBlockReplacerProfile:true]
       [UseRivalAi:true]
       [UseThreatLevelCheck:true]
@@ -633,6 +639,7 @@
     [SkipAirDensityCheck:true]
     [ThreatScoreMinimum:85]
     [ThreatScoreMaximum:3000]
+    [TurretRange:1000]
     [UseBlockReplacerProfile:true]
     [UseRandomNameGenerator:true]
     [UseRivalAi:true]
@@ -646,7 +653,7 @@
         <Behaviour>RAI-Behavior-Earth-Outpost-Gamma</Behaviour>
         <Position>
           <X>0.0</X>
-          <Y>-4.0</Y>
+          <Y>21.0</Y>
           <Z>0.0</Z>
         </Position>
         <Speed>0</Speed>					

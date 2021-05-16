@@ -1397,7 +1397,7 @@
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
-              <ContainerType>MES-StoreInv-IngotsBasicSmall-</ContainerType>
+              <ContainerType>MES-StoreInv-IngotsBasicSmall-1</ContainerType>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>LargeBlockArmorBlock</SubtypeName>
@@ -2790,8 +2790,8 @@ from Tortoise Clan!</Text>
               <EnableIdleRotation>false</EnableIdleRotation>
               <PreviousIdleRotationState>true</PreviousIdleRotationState>
               <TargetCharacters>true</TargetCharacters>
-              <TargetSmallGrids>false</TargetSmallGrids>
-              <TargetLargeGrids>false</TargetLargeGrids>
+              <TargetSmallGrids>true</TargetSmallGrids>
+              <TargetLargeGrids>true</TargetLargeGrids>
               <TargetStations>false</TargetStations>
               <TargetNeutrals>true</TargetNeutrals>
             </MyObjectBuilder_CubeBlock>
@@ -2872,8 +2872,8 @@ from Tortoise Clan!</Text>
               <EnableIdleRotation>false</EnableIdleRotation>
               <PreviousIdleRotationState>true</PreviousIdleRotationState>
               <TargetCharacters>true</TargetCharacters>
-              <TargetSmallGrids>false</TargetSmallGrids>
-              <TargetLargeGrids>false</TargetLargeGrids>
+              <TargetSmallGrids>true</TargetSmallGrids>
+              <TargetLargeGrids>true</TargetLargeGrids>
               <TargetStations>false</TargetStations>
               <TargetNeutrals>true</TargetNeutrals>
             </MyObjectBuilder_CubeBlock>
@@ -2954,8 +2954,8 @@ from Tortoise Clan!</Text>
               <EnableIdleRotation>false</EnableIdleRotation>
               <PreviousIdleRotationState>true</PreviousIdleRotationState>
               <TargetCharacters>true</TargetCharacters>
-              <TargetSmallGrids>false</TargetSmallGrids>
-              <TargetLargeGrids>false</TargetLargeGrids>
+              <TargetSmallGrids>true</TargetSmallGrids>
+              <TargetLargeGrids>true</TargetLargeGrids>
               <TargetStations>false</TargetStations>
               <TargetNeutrals>true</TargetNeutrals>
             </MyObjectBuilder_CubeBlock>
