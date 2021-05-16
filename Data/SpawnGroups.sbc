@@ -641,7 +641,7 @@
     <IsPirate>true</IsPirate> <!--Do not edit-->
     <Frequency>4.0</Frequency>
     <Prefabs>
-      <Prefab SubtypeId="Earth-ConvoySite-Alpha">
+      <Prefab SubtypeId="Earth-Outpost-Gamma">
         <BeaconText>Outpost</BeaconText>
         <Behaviour>RAI-Behavior-Earth-Outpost-Gamma</Behaviour>
         <Position>
